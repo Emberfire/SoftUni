@@ -1,0 +1,5 @@
+package FragileBaseClass;
+
+class Food {
+
+}
