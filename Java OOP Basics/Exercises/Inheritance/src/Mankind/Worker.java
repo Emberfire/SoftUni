@@ -5,14 +5,14 @@ public class Worker extends Human{
     private double workHours;
     private double salaryPerHour;
 
-    public Worker(String firstName, String lastName, double weekSalary, double workHours) {
+    Worker(String firstName, String lastName, double weekSalary, double workHours) {
         super(firstName, lastName);
         this.setWeekSalary(weekSalary);
         this.setWorkHours(workHours);
         this.setSalaryPerHour(weekSalary, workHours);
     }
 
-    public double getWeekSalary() {
+    private double getWeekSalary() {
         return this.weekSalary;
     }
 
@@ -24,7 +24,7 @@ public class Worker extends Human{
         this.weekSalary = weekSalary;
     }
 
-    public double getWorkHours() {
+    private double getWorkHours() {
         return this.workHours;
     }
 

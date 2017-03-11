@@ -3,12 +3,12 @@ package Mankind;
 public class Student extends Human{
     private String facultyNumber;
 
-    public Student(String firstName, String lastName, String facultyNumber) {
+    Student(String firstName, String lastName, String facultyNumber) {
         super(firstName, lastName);
         this.setFacultyNumber(facultyNumber);
     }
 
-    public String getFacultyNumber() {
+    private String getFacultyNumber() {
         return this.facultyNumber;
     }
 
