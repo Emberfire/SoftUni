@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f2c5cc-8d4e-4557-b245-19f5e42243ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Shapes.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Shapes/MathOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/src/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/untitled.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exercises/Inheritance/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Exercises/Inheritance/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exercises/Inheritance/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Exercises/Inheritance/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Shapes/Main.java" afterPath="$PROJECT_DIR$/src/Shapes/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -661,12 +650,20 @@
       <workItem from="1489000195514" duration="9000" />
       <workItem from="1489039584237" duration="478000" />
       <workItem from="1489040119684" duration="2462000" />
-      <workItem from="1489218850492" duration="250000" />
+      <workItem from="1489218850492" duration="335000" />
     </task>
+    <task id="LOCAL-00001" summary="Testing intellij committing">
+      <created>1489219137151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489219137151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6214000" />
+    <option name="totallyTimeSpent" value="6299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -716,6 +713,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing intellij committing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing intellij committing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
