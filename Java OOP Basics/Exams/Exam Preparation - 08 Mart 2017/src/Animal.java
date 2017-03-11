@@ -1,4 +1,4 @@
-class Animal {
+public abstract class Animal {
     private String name;
     private int age;
     private boolean cleansingStatus;
@@ -13,6 +13,10 @@ class Animal {
         return name;
     }
 
+    private void setName(String name) {
+        this.name = name;
+    }
+
     public final int getAge() {
         return age;
     }
@@ -21,15 +25,11 @@ class Animal {
         this.age = age;
     }
 
-    private void setName(String name) {
-        this.name = name;
-    }
-
-    public boolean getCleansedStatus() {
+    public final boolean getCleansedStatus() {
         return this.cleansingStatus;
     }
 
-    public void setCleansedStatus(boolean cleansingStatus) {
+    public final void setCleansedStatus(boolean cleansingStatus) {
         this.cleansingStatus = cleansingStatus;
     }
 }

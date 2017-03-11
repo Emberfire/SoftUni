@@ -1,5 +1,5 @@
-class CleansingCenter extends Center {
-    CleansingCenter(String name) {
+public class CleansingCenter extends Center {
+    public CleansingCenter(String name) {
         super(name);
     }
 }

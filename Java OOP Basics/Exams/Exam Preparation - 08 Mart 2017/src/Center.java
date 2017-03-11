@@ -4,12 +4,12 @@ public abstract class Center {
     private String name;
     private ArrayList<Animal> storedAnimals;
 
-    Center(String name) {
+    protected Center(String name) {
         this.setName(name);
         this.setStoredAnimals(new ArrayList<>());
     }
 
-    String getName() {
+    public final String getName() {
         return this.name;
     }
 
@@ -17,11 +17,11 @@ public abstract class Center {
         this.name = name;
     }
 
-    public ArrayList<Animal> getStoredAnimals() {
+    public final ArrayList<Animal> getStoredAnimals() {
         return this.storedAnimals;
     }
 
-    private void setStoredAnimals(ArrayList<Animal> storedAnimals) {
+    public void setStoredAnimals(ArrayList<Animal> storedAnimals) {
         this.storedAnimals = storedAnimals;
     }
 }

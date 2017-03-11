@@ -1,7 +1,7 @@
 public class Dog extends Animal {
     private int amountOfCommand;
 
-    Dog(String name, int age, int amountOfCommand) {
+    public Dog(String name, int age, int amountOfCommand) {
         super(name, age);
         this.setAmountOfCommand(amountOfCommand);
     }

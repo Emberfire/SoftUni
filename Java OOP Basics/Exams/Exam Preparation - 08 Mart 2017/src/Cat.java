@@ -1,16 +1,16 @@
 public class Cat extends Animal{
     private int intelligenceCoefficient;
 
-    Cat(String name, int age, int intelligenceCoefficient) {
+    public Cat(String name, int age, int intelligenceCoefficient) {
         super(name, age);
-        this.setIntelligence(intelligenceCoefficient);
+        this.setIntelligenceCoefficient(intelligenceCoefficient);
     }
 
-    public final int getIntelligenceCoefficient() {
+    private int getIntelligenceCoefficient() {
         return this.intelligenceCoefficient;
     }
 
-    private void setIntelligence(int intelligenceCoefficient) {
+    public void setIntelligenceCoefficient(int intelligenceCoefficient) {
         this.intelligenceCoefficient = intelligenceCoefficient;
     }
 }
