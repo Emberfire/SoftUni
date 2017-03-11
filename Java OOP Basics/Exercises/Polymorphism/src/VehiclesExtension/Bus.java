@@ -13,7 +13,7 @@ class Bus extends Vehicle {
             throw new IllegalArgumentException("Bus needs refueling");
         }
 
-            this.setFuelQuantity(this.getFuelQuantity() - fuelNeeded);
+        this.setFuelQuantity(this.getFuelQuantity() - fuelNeeded);
     }
 
     void driveEmpty(double distance) {

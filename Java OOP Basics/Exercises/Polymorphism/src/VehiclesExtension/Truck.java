@@ -20,10 +20,6 @@ class Truck extends Vehicle {
 
     @Override
     void refuel(double fuel) {
-        if (fuel > this.getTankCapacity()) {
-            throw new IllegalArgumentException("Cannot fit fuel in tank");
-        } else {
-            this.setFuelQuantity(this.getFuelQuantity() + (fuel * 0.95));
-        }
+        this.setFuelQuantity(this.getFuelQuantity() + (fuel * 0.95));
     }
 }
