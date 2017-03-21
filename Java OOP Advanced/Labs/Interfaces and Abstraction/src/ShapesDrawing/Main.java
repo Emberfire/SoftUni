@@ -12,7 +12,7 @@ public class Main {
 
         Queue<Integer> queue = new ArrayDeque<>();
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 5; i++) {
             queue.add(Integer.parseInt(console.readLine()));
         }
 
