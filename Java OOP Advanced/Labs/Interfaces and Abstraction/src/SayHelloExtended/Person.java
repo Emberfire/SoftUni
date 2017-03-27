@@ -4,5 +4,7 @@ interface Person {
 
     String getName();
 
-    String sayHello();
+    default String sayHello() {
+        return "Hello";
+    }
 }

@@ -1,7 +1,6 @@
 package CarShopExtended;
 
-public interface Sellable extends Car {
-    double price = 0;
+interface Sellable extends Car {
 
-    public double getPrice();
+    Double getPrice();
 }

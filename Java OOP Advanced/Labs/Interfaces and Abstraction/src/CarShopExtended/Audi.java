@@ -1,49 +1,49 @@
 package CarShopExtended;
 
-public class Audi implements Car, Rentable {
+class Audi implements Car, Rentable {
     private String model;
     private String color;
     private Integer horsePower;
     private String countryProduced;
-    private int minRentDays;
-    private double pricePerDay;
+    private Integer minRentDay;
+    private Double pricePerDay;
 
-    public Audi(String model, String color, Integer horsePower, String countryProduced, int minRentDays, double pricePerDay) {
+    Audi(String model, String color, Integer horsePower, String countryProduced, Integer minRentDay, Double pricePerDay) {
         this.model = model;
         this.color = color;
         this.horsePower = horsePower;
         this.countryProduced = countryProduced;
-        this.minRentDays = minRentDays;
+        this.minRentDay = minRentDay;
         this.pricePerDay = pricePerDay;
     }
 
     @Override
-    public int getMinRentDays() {
-        return 0;
+    public Integer getMinRentDay() {
+        return this.minRentDay;
     }
 
     @Override
-    public double getPricePerDay() {
-        return 0;
+    public Double getPricePerDay() {
+        return this.pricePerDay;
     }
 
     @Override
     public String getModel() {
-        return null;
+        return this.model;
     }
 
     @Override
     public String getColor() {
-        return null;
+        return this.color;
     }
 
     @Override
-    public int getHorsePower() {
-        return 0;
+    public Integer getHorsePower() {
+        return this.horsePower;
     }
 
     @Override
     public String toString() {
-        return String.format("This is %s produced in %s and have %d tires", this.getModel(), this.countryProduced, Car.tires);
+        return String.format("This is %s produced in %s and have %d tires", this.getModel(), this.countryProduced, Car.TIRES);
     }
 }

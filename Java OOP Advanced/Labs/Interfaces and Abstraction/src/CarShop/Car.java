@@ -1,11 +1,11 @@
 package CarShop;
 
-public interface Car {
-    int tires = 4;
+interface Car {
+    int TIRES = 4;
 
     String getModel();
 
     String getColor();
 
-    int getHorsePower();
+    Integer getHorsePower();
 }

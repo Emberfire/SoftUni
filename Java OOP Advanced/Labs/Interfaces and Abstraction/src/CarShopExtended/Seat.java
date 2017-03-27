@@ -1,7 +1,7 @@
 package CarShopExtended;
 
 
-public class Seat implements Car, Sellable {
+class Seat implements Car, Sellable {
 
     private String model;
     private String color;
@@ -9,7 +9,7 @@ public class Seat implements Car, Sellable {
     private String countryProduced;
     private Double price;
 
-    public Seat(String model, String color, Integer horsePower, String countryProduced, Double price) {
+    Seat(String model, String color, Integer horsePower, String countryProduced, Double price) {
         this.model = model;
         this.color = color;
         this.horsePower = horsePower;
@@ -28,17 +28,17 @@ public class Seat implements Car, Sellable {
     }
 
     @Override
-    public int getHorsePower() {
+    public Integer getHorsePower() {
         return this.horsePower;
     }
 
     @Override
-    public double getPrice() {
+    public Double getPrice() {
         return this.price;
     }
 
     @Override
     public String toString() {
-        return String.format("This is %s produced in %s and have %d tires", this.getModel(), this.countryProduced, Car.tires);
+        return String.format("This is %s produced in %s and have %d tires", this.getModel(), this.countryProduced, Car.TIRES);
     }
 }

@@ -1,11 +1,19 @@
 package SayHelloExtended;
 
-public abstract class BasePerson implements Person {
+abstract class BasePerson implements Person {
+
     private String name;
 
+    protected BasePerson(String name) {
+        this.setName(name);
+    }
 
-    public abstract String getName();
+    @Override
+    public String getName() {
+        return this.name;
+    }
 
-    protected abstract void setName(String name);
-
+    private void setName(String name) {
+        this.name = name;
+    }
 }

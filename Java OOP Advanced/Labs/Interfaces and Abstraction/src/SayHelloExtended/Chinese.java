@@ -1,20 +1,12 @@
 package SayHelloExtended;
 
-public class Chinese extends BasePerson {
+class Chinese extends BasePerson implements Person{
     private String name;
 
     Chinese(String name) {
-        this.setName(name);
+        super(name);
     }
 
-    @Override
-    public String getName() {
-        return this.name;
-    }
-
-    private void setName(String name) {
-        this.name = name;
-    }
 
     @Override
     public String sayHello() {
