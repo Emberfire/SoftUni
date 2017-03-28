@@ -1,0 +1,4 @@
+package MultipleImplementation;
+
+interface Person {
+}
