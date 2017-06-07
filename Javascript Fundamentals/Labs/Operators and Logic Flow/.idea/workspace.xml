@@ -209,7 +209,7 @@
       <updated>1496768591765</updated>
       <workItem from="1496768592988" duration="4967000" />
       <workItem from="1496834948603" duration="4397000" />
-      <workItem from="1496839362654" duration="101000" />
+      <workItem from="1496839362654" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="Finished lab for Operators and Logic Flow">
       <created>1496839455816</created>
@@ -225,11 +225,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496839461217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished lab for Operators and Logic Flow">
+      <created>1496839466391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496839466391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9465000" />
+    <option name="totallyTimeSpent" value="9583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
