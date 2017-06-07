@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16919b3c-c12a-43f3-99b2-0e0266c964bf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises.js" afterPath="$PROJECT_DIR$/Exercises.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +23,7 @@
             <state relative-caret-position="732">
               <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
               <folding>
-                <marker date="1496839153394" expanded="true" signature="2155:2803" ph="..." />
+                <marker date="1496839431710" expanded="true" signature="2151:2799" ph="..." />
               </folding>
             </state>
           </provider>
@@ -210,12 +209,20 @@
       <updated>1496768591765</updated>
       <workItem from="1496768592988" duration="4967000" />
       <workItem from="1496834948603" duration="4397000" />
-      <workItem from="1496839362654" duration="19000" />
+      <workItem from="1496839362654" duration="96000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished lab for Operators and Logic Flow">
+      <created>1496839455816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1496839455816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9383000" />
+    <option name="totallyTimeSpent" value="9460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -245,6 +252,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished lab for Operators and Logic Flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished lab for Operators and Logic Flow" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -257,7 +269,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496839153394" expanded="true" signature="2155:2803" ph="..." />
+            <marker date="1496839431710" expanded="true" signature="2151:2799" ph="..." />
           </folding>
         </state>
       </provider>
@@ -267,7 +279,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496839153394" expanded="true" signature="2155:2803" ph="..." />
+            <marker date="1496839431710" expanded="true" signature="2151:2799" ph="..." />
           </folding>
         </state>
       </provider>
@@ -279,7 +291,7 @@
         <state relative-caret-position="732">
           <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
           <folding>
-            <marker date="1496839153394" expanded="true" signature="2155:2803" ph="..." />
+            <marker date="1496839431710" expanded="true" signature="2151:2799" ph="..." />
           </folding>
         </state>
       </provider>
