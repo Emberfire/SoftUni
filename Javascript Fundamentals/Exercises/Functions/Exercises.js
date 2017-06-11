@@ -133,6 +133,36 @@ function modifyAge(n) {
 
 }
 
-function validityChecker() {
+function validityChecker(array) {
+    let x1 = array[0];
+    let y1 = array[1];
+    let x2 = array[2];
+    let y2 = array[3];
 
+    console.log(`{${x1}, ${y1}} to {0, 0} is ${isInValidRange(x1, y1, 0, 0)}`);
+    console.log(`{${x2}, ${y2}} to {0, 0} is ${isInValidRange(x2, y2, 0, 0)}`);
+    console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is ${isInValidRange(x1, y1, x2, y2)}`);
+
+    function isInValidRange(x1, y1, x2, y2) {
+        let distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        return distance % 1 === 0 ? 'valid' : 'invalid';
+    }
+}
+
+function treasureLocator(array) {
+    for (let i = 0; i < array.length; i += 2) {
+        if (array[i] >= 1 && array[i] <= 3 && array[i + 1] >= 1 && array[i + 1] <= 3) {
+            console.log('Tuvalu');
+        } else if (array[i] >= 8 && array[i] <= 9 && array[i + 1] >= 0 && array[i + 1] <= 1) {
+            console.log('Tokelau');
+        } else if (array[i] >= 5 && array[i] <= 7 && array[i + 1] >= 3 && array[i + 1] <= 6) {
+            console.log('Samoa');
+        } else if (array[i] >= 0 && array[i] <= 2 && array[i + 1] >= 6 && array[i + 1] <= 8) {
+            console.log('Tonga');
+        } else if (array[i] >= 4 && array[i] <= 9 && array[i + 1] >= 7 && array[i + 1] <= 8) {
+            console.log('Cook');
+        } else {
+            console.log('On the bottom of the ocean')
+        }
+    }
 }
