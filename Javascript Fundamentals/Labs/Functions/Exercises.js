@@ -8,9 +8,9 @@ function triangleOfStars(n) {
     }
 }
 
-function squareOfStars(n) {
+function squareOfStars(n = 5) {
     for (let i = 1; i <= n; i++) {
-        console.log('*'.repeat(n));
+        console.log('* '.repeat(n));
     }
 }
 
@@ -20,7 +20,7 @@ function palyndrome(word) {
         wordReversed += word[i];
     }
 
-    console.log(wordReversed)
+    console.log(word === wordReversed);
 }
 
 function dayOfWeek(day) {
@@ -54,4 +54,55 @@ function dayOfWeek(day) {
 
 function functionalCalculator(a, b, operator) {
 
+    function add(a, b) {
+        return a + b;
+    }
+
+    function subtract(a, b) {
+        return a - b;
+    }
+
+    function multiply(a, b) {
+        return a * b;
+    }
+
+    function divide(a, b) {
+        return a / b
+    }
+
+    switch (operator) {
+        case '+': return add(a, b);
+        case '-': return subtract(a, b);
+        case '*': return multiply(a, b);
+        case '/': return divide(a, b);
+    }
+}
+
+function agregateElements(array) {
+    let sum = 0;
+    let inverseSum = 0;
+    let concatOut = '';
+
+    array.forEach(a => {
+        sum += a;
+        inverseSum += 1 / a;
+        concatOut += a;
+    });
+
+    console.log(sum);
+    console.log(inverseSum);
+    console.log(concatOut);
+}
+
+function wordsUpperCase(sentence) {
+    let pattern = /\w+/g;
+    let output = '';
+
+    let match = pattern.exec(sentence);
+    while (match) {
+        output += (match[0].toUpperCase() + ', ');
+        match = pattern.exec(sentence);
+    }
+
+    console.log(output.substring(0, output.length - 2));
 }
