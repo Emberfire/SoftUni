@@ -112,5 +112,3 @@ function equalNeighbors(matrix) {
 
     console.log(occurrences);
 }
-
-equalNeighbors([['2', '2', '5', ' ', '4'], ['4', '0', '5', ' ', '4'], ['2', '5', '5', '4', '2']]);
