@@ -138,7 +138,7 @@ function airport(array) {
         });
 
         for (let planePair of planesSorted) {
-            output += `-- ${planePair[1]}\n`
+            output += `-- ${planePair[1]}\n`;
         }
     }
 
